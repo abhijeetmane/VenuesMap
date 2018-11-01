@@ -1,0 +1,2 @@
+export const GET_VENUES = 'GET_VENUES';
+export const GET_VENUES_FAILED = 'GET_VENUES_FAILED';

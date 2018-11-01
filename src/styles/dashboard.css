@@ -1,0 +1,126 @@
+.venue-header {
+    height: 100px;
+    background-color: #2d5be3;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5px;
+  }
+  
+.venue-search{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    margin: 5px;
+    position: fixed;
+    height: 100vh;
+}
+
+.venue-search__error{
+    color: red;
+}
+
+.venue-search__results{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.venue-search__results_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    height: 80%;
+    overflow: auto;
+    min-width: 200px;
+}
+
+.venue-search__results_list_item{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(128, 137, 153);
+    cursor: pointer;
+}
+
+.venue-search__results_list_item:hover{
+        background-color: #79797961;
+}
+
+.venue-search__results_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 80%;
+}
+
+.google-map{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.venue-search__input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    border:1px solid #3a4673;
+    border-radius: 4px;
+}
+
+.venue-search__button {
+    color: #ffffff;
+    margin: 5px;
+    width: 80px;
+    background-color: #797979;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.venue-search__filter_button{
+    color: #ffffff;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.section {
+    background-color: '#449a53'
+}
+
+.no_section {
+    background-color: '#797979'
+}
+
+.venue-search__location-filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width : 667px){
+    .venue-search__input{
+        width: 200px; 
+    }
+    .venue-search__button {
+        width: auto;
+    }
+    .venue-search__results_list{
+        min-width: 0;
+        width: 200px;
+    }
+}
