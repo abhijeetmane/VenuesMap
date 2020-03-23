@@ -6,6 +6,10 @@ Application to find venues across the world
 
 This Project is about finding venues based on user location.
 
+# Site Access
+
+https://venuesmap.herokuapp.com/
+
 # Tech Stack
 
 Application uses a number of open source projects to work properly:
